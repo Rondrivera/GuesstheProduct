@@ -80,6 +80,9 @@
                                 <state key="normal" title="End Result">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="endResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wn4-TZ-DEc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -108,6 +111,7 @@
                         <outlet property="button1" destination="D7q-Uu-Uca" id="I5S-NU-YD8"/>
                         <outlet property="button2" destination="ZIx-aT-c5s" id="ZfP-JR-cgr"/>
                         <outlet property="button3" destination="oxd-tX-Op0" id="mDb-0s-eoO"/>
+                        <outlet property="endGame" destination="3YW-nZ-z5Z" id="buj-XP-oit"/>
                         <outlet property="pauseButton" destination="yYB-9H-1jT" id="Yoe-fk-IK5"/>
                         <outlet property="resetButton" destination="C7S-jR-p50" id="UaL-fp-wqr"/>
                         <outlet property="startButton" destination="teU-qm-7Sb" id="gxZ-gF-BED"/>
